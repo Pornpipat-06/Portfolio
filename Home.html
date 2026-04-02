@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลัก - Portfolio</title>
+    <link rel="stylesheet" href="CSS/mainstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* เพิ่มเติมเฉพาะหน้า Home เพื่อความสวยงาม */
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(30, 41, 59, 0.8)),
+                url('https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=1200');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-family: 'Poppins';
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #cbd5e1;
+        }
+
+        .btn-main {
+            padding: 15px 40px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-main:hover {
+            background: #2563eb;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container container">
+            <div class="logo"><a href="Home.html">PORTFOLIO</a></div>
+            <ul class="menu">
+                <li><a href="Home.html">หน้าหลัก</a></li>
+                <li><a href="Services.html">ผลงาน</a></li>
+                <li><a href="About.html">เกี่ยวกับฉัน</a></li>
+                <li><a href="Contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <p>ยินดีต้อนรับสู่พื้นที่รวบรวมผลงานและบริการด้านดิจิทัลโซลูชันครบวงจร</p>
+            <a href="Services.html" class="btn-main">ดูผลงานทั้งหมด</a> 
+        </div>
+    </header>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3>Contact Us</h3>
+                    <p>123 อาคารซอฟต์แวร์ กรุงเทพฯ</p>
+                    <p>Email: hello@portfolio.com</p>
+                    <div class="social-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                    </div>
+                </div>
+                <div>
+                    <h3>Links</h3>
+                    <ul style="list-style: none; padding-top: 10px;">
+                        <li><a href="Services.html" style="color: #94a3b8; text-decoration: none;">Our Services</a></li>
+                        <li><a href="Contact.html" style="color: #94a3b8; text-decoration: none;">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="map-container">
+                    <h3>Location</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15501.444365511303!2d100.523186!3d13.756331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ1JzIyLjgiTiAxMDDCsDMxJzIzLjUiRQ!5e0!3m2!1sth!2sth!4v1640000000000"
+                        height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <p
+                style="text-align: center; border-top: 1px solid #334155; padding-top: 20px; font-size: 0.8rem; color: #64748b;">
+                © 2026 My Portfolio Design. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
